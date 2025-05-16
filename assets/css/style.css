@@ -239,7 +239,7 @@ label {
 	line-height: 59px;
 }
 #scrollUp:hover {
-	background: #1a7752;
+	background: #066aab;
 }
 
 /* 2. header */
@@ -780,11 +780,188 @@ label {
 	color: #555555;
 	padding: 0px 8px;
 }
+
+
+
+
+
+
+
+
+
+
+.after-class-card {
+    background-color: #066aab;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.after-class-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.after-class-card i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Background variations */
+.enrichment-card {
+    background-color: #066aab;
+}
+
+.arts-card {
+    background-color: #0b7fc8;
+}
+
+.fitness-card {
+    background-color: #044d7a;
+}
+
+.after-class-card h4 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.after-class-card p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.class-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.class-list li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.program-card {
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 16px;
+    color: #ffffff; /* pure white text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.program-card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    display: block;
+    color: #ffffff; /* pure white icon color */
+}
+
+/* Unique background colors for each program */
+.play-group-card {
+    background-color: #066aab;
+}
+
+.nursery-card {
+    background-color: #0b7fc8;
+}
+
+.lkg-card {
+    background-color: #055c95;
+}
+
+.ukg-card {
+    background-color: #0f8fd6;
+}
+
+.daycare-card {
+    background-color: #044d7a;
+}
+
+.program-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff; /* pure white heading */
+}
+
+.program-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ffffff; /* pure white paragraph text */
+}
+
+
+
+.skills-wrapper {
+    text-align: center;
+}
+
+.skill-category {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+}
+
+.skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.pill {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.pill:hover {
+    background-color: #066aab;
+    color: #fff;
+    border-color: #066aab;
+}
+
+
+
+
+
+
 /* 5. about */
 .section-bg-one {
-	background-image: -moz-linear-gradient( 0deg, rgb(35,204,136) 0%, rgb(142,207,53) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(35,204,136) 0%, rgb(142,207,53) 100%);
-	background-image: -ms-linear-gradient( 0deg, rgb(35,204,136) 0%, rgb(142,207,53) 100%);
+	    background-color: #066aab;
 }
 .about-img img {
 	margin-top: 21px;
@@ -917,10 +1094,9 @@ label {
 }
 /* 7. counter */
 .section-bg-two {
-	background-image: -moz-linear-gradient( 0deg, rgb(255,79,88) 0%, rgb(255,180,0) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(255,79,88) 0%, rgb(255,180,0) 100%);
-	background-image: -ms-linear-gradient( 0deg, rgb(255,79,88) 0%, rgb(255,180,0) 100%);
+    background-color: #066aab;
 }
+
 .single-counter h3 {
 	font-size: 48px;
 	color: #ffffff;
@@ -1138,7 +1314,7 @@ label {
 .fortfolio-thumb::before {
 	position: absolute;
 	content: "";
-	background: rgba(146, 39, 143, 0.941);
+	background: #066aab;
 	left: 0;
 	top: 0;
 	width: 100%;
